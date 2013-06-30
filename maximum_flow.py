@@ -402,7 +402,10 @@ def mpm(source, sink, network):
         flow_add(network, g)
         
     logging.info('Maximum Flow:\n%s',_to_str(network))
-    return network
+    outgoin = [v for v in network[source].iterkeys()]
+    maxflow_value = sum([network[source][v]['flow'] for v in outgoin])
+    logging.info('Maximum Flow value: %s', str(maxflow_value))
+    return network, maxflow_value
 
 
 def main(fname, source, sink):
