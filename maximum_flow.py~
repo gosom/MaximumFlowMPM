@@ -22,7 +22,7 @@ At each stage we:
     
     This is the main part of the algorithm.
     
-    Check the original paper: Malhotra, V. M, M. P Kumar, S.N Maheshwari, 
+    Check the original paper: alhotra, V. M, M. P Kumar, S.N Maheshwari, 
     “An O(|V|3) algorithm for finding maximum flows in networks”, 
     Inf. Proc. Letters, 7, no. 6 (October 1978), 277 – 78
     
